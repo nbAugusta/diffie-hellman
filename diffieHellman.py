@@ -6,8 +6,8 @@ def main():
     p = input("prime order: p = ")          # Prime order of finite field
     g = input("generator: g = ")            # Generator of multiplicative group Z_p*
     
-    a = random.randint(0,100)               # Secret exponents for both parties
-    b = random.randint(0,100)   
+    a = random.randint(0,100)               # Secret exponents for both parties (should be much larger for production use)
+    b = random.randint(0,100)               
     
     party1 = Party(a)                       # Exchange occurs between these two parties
     party2 = Party(b)
