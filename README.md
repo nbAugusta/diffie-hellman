@@ -1,5 +1,5 @@
 # diffie-hellman
-A simple object-oriented implementation of Diffie-Hellman key exchange in Python.
+A simple object-oriented implementation of Diffie-Hellman key exchange between two parties in Python.
 
 ## Basic Usage
 * The implementation runs entirely from diffieHellman.py, unit tests are contained within test_difHel.py
